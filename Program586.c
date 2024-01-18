@@ -1,0 +1,29 @@
+//////////////////////////////////////////////////////////////////////////
+//  Function Name :     Display name
+//  Description :       to display the name given by user
+//  Input Arguments :   character
+//  Output :            character
+//  Author :            Samidha Narendra Vaity
+//  Date :              17/10/2023
+//////////////////////////////////////////////////////////////////////////
+ 
+#include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////
+//
+// Entry Point Function
+//
+//////////////////////////////////////////////////////////////////////////
+
+int main()
+{
+    char Name[30];
+
+    printf("Please enter full name\n");
+
+    scanf("%s\n",&Name);
+
+    printf("Your name is %s", Name);
+
+    return 0;
+}

@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////////////////////////////
+//  Function Name :     Display string
+//  Description :       to display the number in word
+//  Input Arguments :   integer
+//  Output :            string
+//  Author :            Samidha Narendra Vaity
+//  Date :              18/10/2023
+//////////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+void Display(int iNo)
+{
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+//
+// Entry Point Function
+//
+//////////////////////////////////////////////////////////////////////////
+
+int main()
+{
+    int iValue =0;
+
+    printf("Enter number");
+    scanf("%d",&iValue);
+
+    Display(iValue);
+
+    return 0;
+}
